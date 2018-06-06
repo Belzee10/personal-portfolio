@@ -8,11 +8,11 @@
     src: local(Poppins Light), url("../font/poppins/Poppins-Light.ttf");
     src: url("../font/poppins/Poppins-Light.ttf?#iefix") format("embedded-opentype"), url("../font/poppins/Poppins-Light.ttf") format("truetype");
     font-weight: 300; }
-@font-face {
+/* @font-face {
     font-family: "Poppins";
     src: local(Poppins Regular), url("../font/poppins/Poppins-Regular.ttf");
     src: url("../font/poppins/Poppins-Regular.ttf?#iefix") format("embedded-opentype"), url("../font/poppins/Poppins-Regular.ttf") format("truetype");
-    font-weight: 400; }
+    font-weight: 400; } */
 @font-face {
     font-family: "Poppins";
     src: local(Poppins Medium), url("../font/poppins/Poppins-Medium.ttf");
