@@ -1,0 +1,62 @@
+{    
+    "backend": [
+        {
+            "name": "PHP"
+        },
+        {
+            "name": "Node.js"
+        },
+        {
+            "name": "Laravel"
+        },
+        {
+            "name": "Symfony"
+        },
+        {
+            "name": "Express.js"
+        },
+        {
+            "name": "Rest API"
+        }
+    ],
+    "frontend": [
+        {
+            "name": "Angular" 
+        },
+        {
+            "name": "jQuery" 
+        },
+        {
+            "name": "Bootstrap" 
+        },
+        {
+            "name": "JavaScript" 
+        },        
+        {
+            "name": "HTML" 
+        },
+        {
+            "name": "CSS" 
+        },
+        {
+            "name": "Responsive Design" 
+        }
+    ],
+    "others": [
+        {
+            "name": "Git" 
+        }, 
+        {
+            "name": "MySql" 
+        },
+        {
+            "name": "MongoDB" 
+        },
+        {
+            "name": "LDAP" 
+        },
+        {
+            "name": "Memcached" 
+        }        
+    ] 
+}

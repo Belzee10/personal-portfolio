@@ -1,0 +1,193 @@
+<header>
+  <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div id="header-container" class="container navbar-containe">
+          <a id="brand" class="navbar-brand" (click)="toggleClass('home')" [scrollTo]="'#home'" [scrollDuration]="1000" [scrollOffset]="-100">
+            ivan.
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>            
+          <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+              </ul>                    
+              <ul class="navbar-nav">
+                  <li class="nav-item" [ngClass]="{ 'active': link === 'home' }">
+                      <a class="nav-link" (click)="toggleClass('home')" [scrollTo]="'#home'" [scrollDuration]="1000" [scrollOffset]="-100">Home</a>
+                  </li>
+                  <li class="nav-item" [ngClass]="{ 'active': link === 'about' }">
+                      <a class="nav-link" (click)="toggleClass('about')" [scrollTo]="'#about'" [scrollDuration]="1000" [scrollOffset]="-100">About</a>
+                  </li>    
+                  <li class="nav-item" [ngClass]="{ 'active': link === 'portfolio' }">
+                      <a class="nav-link" (click)="toggleClass('portfolio')" [scrollTo]="'#projects'" [scrollDuration]="1000" [scrollOffset]="-100">Portfolio</a>
+                  </li>
+                  <li class="nav-item" [ngClass]="{ 'active': link === 'contact' }">
+                      <a class="nav-link" (click)="toggleClass('contact')" [scrollTo]="'#contact'" [scrollDuration]="1000" [scrollOffset]="-100">Contact</a>
+                  </li> 
+              </ul>                
+          </div>
+      </div>            
+  </nav> 
+  <div id="home" class="view" style="background-image: url('assets/img/banner.png'); background-repeat: no-repeat; background-size: cover;">
+      <div class="banner text-left">
+          <div class="container">
+              <ul>
+                  <li>
+                      <h1>
+                          Hello, I'am <span>Ivan Perez</span>.<br>
+                          I'm a full-stack web developer.
+                      </h1>
+                  </li>                        
+                  <li>
+                      <a href="{{linkCV}}" target="_blank" class="btn btn-golden">Download CV</a>
+                  </li>
+              </ul>
+          </div>   
+      </div>
+      <div class="scroll-btn d-none d-md-block">
+          <span class="mouse">
+              <span>
+              </span>
+          </span>                
+      </div>
+  </div>
+</header>
+<section id="about">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-5 d-none d-md-block">
+              <img src="assets/img/photo.png" alt="Ivan Perez" class="img-fluid float-right mr-5" width="170">
+          </div>
+          <div class="col-xs-12 col-md-7">
+              <div class="text-center text-md-left">
+                  <h2 class="about">About me</h2>
+              </div>
+              <p>
+                I am a Computer Engineer graduated in 2016 at the University of Pinar del Río, Cuba. I have
+                worked as a web developer in the last two years using both technologies
+                <span class="highlight">Frontend</span> and <span class="highlight">Backend</span>,                  
+                mainly <span class="highlight">Laravel</span>, <span class="highlight">Symfony</span>, 
+                <span class="highlight">Node.js</span> and <span class="highlight">Angular</span>.
+                I like to contribute to make incredible things
+                that's why I keep learning things new every day reading books, articles, with online training.
+              </p>              
+              <img src="assets/img/photo.png" alt="Ivan Perez" class="img-fluid mx-auto d-block d-md-none" width="170">
+          </div>
+      </div>
+  </div>
+</section>
+<section id="skills">
+  <div class="container">
+      <div class="row">
+          <div class="col text-center">
+              <h2 class="skills">Skills</h2>
+          </div>
+      </div>    
+      <div class="row">
+          <div class="offset-1 col-10 mb-5">
+              <h5>Back-end</h5>
+              <span *ngFor="let backend of skillsBackend" class="skill">
+                {{backend.name}}
+              </span>              
+          </div>
+          <div class="offset-1 col-10 mb-5">
+              <h5>Front-end</h5>
+              <span *ngFor="let frontend of skillsFrontend" class="skill">
+                {{frontend.name}}
+              </span>              
+          </div>
+          <div class="offset-1 col-10">
+              <h5>Others</h5>
+              <span *ngFor="let others of skillsOthers" class="skill">
+                {{others.name}}
+              </span>              
+          </div>
+      </div> 
+  </div>
+</section>
+<section id="projects">
+  <div class="container">
+      <div class="row">
+          <div class="col text-center">
+              <h2 class="projects">Projects</h2>
+          </div>
+      </div>  
+      <div *ngFor="let project of projects; let i = index; let last = last">
+          <div class="row project">
+            <div class="offset-1 col-md-6">
+                <div class="row">
+                    <div class="col-2">
+                        <span class="number">0{{i + 1}}</span>
+                    </div>
+                    <div class="col-10">
+                        <h4>{{project.name}}</h4>
+                        <p>
+                          {{project.description}}
+                        </p>
+                        <span *ngFor="let technology of project.technologies" class="skill">
+                          {{technology.name}}
+                        </span>
+                        <div class="mt-3">
+                            <a *ngIf="project.name != 'Captive Portal'" href="{{project.link}}" target="_blank" class="btn-visit">
+                              Visit Site
+                            </a>
+                            <a *ngIf="project.name == 'Captive Portal'" href="{{project.link}}" target="_blank" class="btn-visit">
+                              View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="{{project.link}}" target="_blank">
+                    <img class="img-fluid" src="{{project.photo}}" alt="{{project.name}}" title="{{project.name}}">
+                </a>
+            </div>
+        </div>
+        <hr *ngIf="!last" class="d-md-none">
+      </div>                                
+  </div>
+</section>
+<footer id="contact" class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col pl-5">
+              <h3>Contact me</h3>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 pl-5">
+              <p>
+                    I would be glad if you contacted me. I am always looking for new challenges that allow me to improve my skills.
+              </p>
+          </div>
+          <div class="offset-md-1 col-md-5">                    
+              <a href="mailto:belzee92@gmail.com" target="_top" class="mail">
+                  <i class="mdi mdi-email"></i>
+                  belzee92@gmail.com
+              </a>
+              <div class="social ml-2 mt-4">
+                  <a class="linkedin" href="https://www.linkedin.com/in/ivan-perez-abreu-2234b9132/" target="_blank" title="Linkedin">
+                      <i class="mdi mdi-linkedin"></i>
+                  </a>
+                  <a class="github" href="https://github.com/Belzee10" target="_blank" title="Github">
+                      <i class="mdi mdi-github-box"></i>
+                  </a>
+                  <a class="twitter" href="https://twitter.com/belzee5" target="_blank" title="Twitter">
+                        <i class="mdi mdi-twitter"></i>
+                    </a>
+                  <a class="google" href="https://plus.google.com/u/0/102925143837632968871" target="_blank" title="Google+">
+                      <i class="mdi mdi-google"></i>
+                  </a>                  
+              </div>
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col text-center">
+              <span class="brand">
+                  ivan.
+              </span>
+          </div>
+      </div>
+  </div>
+</footer>
