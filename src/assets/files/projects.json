@@ -1,5 +1,28 @@
 {    
-    "projects": [        
+    "projects": [    
+        {
+            "name": "TechSop",
+            "description": "TechShop is a fake eCommerce application that allows you buy technological items.",
+            "photo": "assets/files/techshop.png",
+            "link": "https://techshopapp.herokuapp.com",
+            "technologies": [
+                {
+                    "name": "Angular 5"
+                },
+                {
+                    "name": "Laravel 5.5"
+                },
+                {
+                    "name": "Bootstrap 4"
+                },
+                {
+                    "name": "HTML5"
+                },
+                {
+                    "name": "CSS3"
+                }
+            ]
+        },    
         {
             "name": "Zacuba",
             "description": "Zacuba is the place of Cuban fashion. It allows users to sell, promote and buy fashion items. (shoes, shirts, glasses, etc.).",
