@@ -1,10 +1,10 @@
 {    
     "backend": [
         {
-            "name": "PHP"
+            "name": "Node.js"
         },
         {
-            "name": "Node.js"
+            "name": "Express.js"
         },
         {
             "name": "Laravel"
@@ -13,36 +13,39 @@
             "name": "Symfony"
         },
         {
-            "name": "Express.js"
-        },
-        {
-            "name": "Rest API"
+            "name": "PHP"
         }
     ],
     "frontend": [
         {
-            "name": "Angular" 
+            "name": "JavaScript" 
+        }, 
+        {
+            "name": "ES6" 
         },
+        {
+            "name": "React.js" 
+        },
+        {
+            "name": "Angular" 
+        },        
         {
             "name": "jQuery" 
         },
         {
             "name": "Bootstrap" 
-        },
-        {
-            "name": "JavaScript" 
-        },        
+        },               
         {
             "name": "HTML" 
         },
         {
             "name": "CSS" 
-        },
-        {
-            "name": "Responsive Design" 
-        }
+        }        
     ],
     "others": [
+        {
+            "name": "OOP" 
+        },
         {
             "name": "Git" 
         }, 
@@ -51,6 +54,7 @@
         },
         {
             "name": "MongoDB" 
-        }               
+        }   
+                     
     ] 
 }

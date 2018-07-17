@@ -29,6 +29,7 @@
     "express": "^4.16.3",
     "jquery": "^3.3.1",
     "ng2-scroll-to-el": "^1.2.1",
+    "ngx-scroll-event": "^1.0.8",
     "path": "^0.12.7",
     "popper.js": "^1.14.3",
     "rxjs": "^5.5.2",

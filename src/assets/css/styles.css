@@ -152,6 +152,9 @@ p {
     font-size: 14px;
     letter-spacing: .4px;
 }
+#about p {
+    font-size: 16px;
+}
 .btn-golden {
     background-color: #d9bf77;
     color: #fff;
@@ -368,6 +371,7 @@ span.highlight {
 	-moz-animation: ani-mouse 2.5s linear infinite;
     animation: ani-mouse 2.5s linear infinite;
 }
+
 @media(min-width: 576px) {
     .banner {
         padding-top: 30%;        

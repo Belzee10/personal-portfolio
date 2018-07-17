@@ -53,6 +53,5 @@ export class AppComponent implements OnInit {
 
   toggleClass(value: string) {
     this.link = value;
-  }
-
+  } 
 }

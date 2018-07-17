@@ -63,12 +63,10 @@
               </div>
               <p>
                 I am a Computer Engineer graduated in 2016 at the University of Pinar del Río, Cuba. I have
-                worked as a web developer in the last two years using both technologies
-                <span class="highlight">Frontend</span> and <span class="highlight">Backend</span>,                  
-                mainly <span class="highlight">Laravel</span>, <span class="highlight">Symfony</span>, 
-                <span class="highlight">Node.js</span> and <span class="highlight">Angular</span>.
-                I like to contribute to make incredible things
-                that's why I keep learning things new every day reading books, articles, with online training.
+                worked as a web developer in the last years using both technologies
+                <span class="highlight">Frontend</span> and <span class="highlight">Backend</span>. 
+                I like the teamwork and contribute to make incredible things
+                that's why I keep learning things new every day reading books, articles and online training.
               </p>              
               <img src="assets/img/photo.png" alt="Ivan Perez" class="img-fluid mx-auto d-block d-md-none" width="170">
           </div>
@@ -83,24 +81,24 @@
           </div>
       </div>    
       <div class="row">
-          <div class="offset-1 col-10 mb-5">
-              <h5>Back-end</h5>
-              <span *ngFor="let backend of skillsBackend" class="skill">
-                {{backend.name}}
-              </span>              
-          </div>
-          <div class="offset-1 col-10 mb-5">
-              <h5>Front-end</h5>
-              <span *ngFor="let frontend of skillsFrontend" class="skill">
+        <div class="offset-1 col-10 mb-5">
+            <h5>Front-end</h5>
+            <span *ngFor="let frontend of skillsFrontend" class="skill">
                 {{frontend.name}}
-              </span>              
-          </div>
-          <div class="offset-1 col-10">
-              <h5>Others</h5>
-              <span *ngFor="let others of skillsOthers" class="skill">
-                {{others.name}}
-              </span>              
-          </div>
+            </span>       
+        </div>
+        <div class="offset-1 col-10 mb-5">                
+            <h5>Back-end</h5>
+            <span *ngFor="let backend of skillsBackend" class="skill">
+            {{backend.name}}
+            </span>            
+        </div>
+        <div class="offset-1 col-10">
+            <h5>Others</h5>
+            <span *ngFor="let others of skillsOthers" class="skill">
+            {{others.name}}
+            </span>              
+        </div>                   
       </div> 
   </div>
 </section>
