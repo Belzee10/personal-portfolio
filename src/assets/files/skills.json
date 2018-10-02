@@ -1,60 +1,59 @@
-{    
-    "backend": [
-        {
-            "name": "Node.js"
-        },
-        {
-            "name": "Express.js"
-        },
-        {
-            "name": "Laravel"
-        },
-        {
-            "name": "Symfony"
-        },
-        {
-            "name": "PHP"
-        }
-    ],
-    "frontend": [
-        {
-            "name": "JavaScript" 
-        }, 
-        {
-            "name": "ES6" 
-        },
-        {
-            "name": "React.js" 
-        },
-        {
-            "name": "Angular" 
-        },        
-        {
-            "name": "jQuery" 
-        },
-        {
-            "name": "Bootstrap" 
-        },               
-        {
-            "name": "HTML" 
-        },
-        {
-            "name": "CSS" 
-        }        
-    ],
-    "others": [
-        {
-            "name": "OOP" 
-        },
-        {
-            "name": "Git" 
-        }, 
-        {
-            "name": "MySql" 
-        },
-        {
-            "name": "MongoDB" 
-        }   
-                     
-    ] 
+{
+  "backend": [
+    {
+      "name": "Node.js"
+    },
+    {
+      "name": "Express.js"
+    },
+    {
+      "name": "Laravel"
+    },
+    {
+      "name": "Symfony"
+    },
+    {
+      "name": "PHP"
+    }
+  ],
+  "frontend": [
+    {
+      "name": "React.js"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "ES6"
+    },
+    {
+      "name": "Angular"
+    },
+    {
+      "name": "jQuery"
+    },
+    {
+      "name": "Bootstrap"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    }
+  ],
+  "others": [
+    {
+      "name": "OOP"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "MySql"
+    },
+    {
+      "name": "MongoDB"
+    }
+  ]
 }

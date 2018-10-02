@@ -1,79 +1,99 @@
-{    
-    "projects": [    
+{
+  "projects": [
+    {
+      "name": "SunnyDay",
+      "description": "Sunny-Day is a Weather APP made with React.js",
+      "photo": "assets/files/sunnyday.png",
+      "link": "https://belzee10.github.io/sunny-day/",
+      "technologies": [
         {
-            "name": "TechSop",
-            "description": "TechShop is a fake eCommerce application that allows you buy technological items.",
-            "photo": "assets/files/techshop.png",
-            "link": "https://techshopapp.herokuapp.com",
-            "technologies": [
-                {
-                    "name": "Angular 5"
-                },
-                {
-                    "name": "Laravel 5.5"
-                },
-                {
-                    "name": "Bootstrap 4"
-                },
-                {
-                    "name": "HTML5"
-                },
-                {
-                    "name": "CSS3"
-                }
-            ]
-        },    
-        {
-            "name": "Zacuba",
-            "description": "Zacuba is the place of Cuban fashion. It allows users to sell, promote and buy fashion items. (shoes, shirts, glasses, etc.).",
-            "photo": "assets/files/zacuba.png",
-            "link": "http://zacuba.hl363.dinaserver.com",
-            "technologies": [
-                {
-                    "name": "Angular 4"
-                },
-                {
-                    "name": "Laravel 5.5"
-                },
-                {
-                    "name": "Bootstrap 3"
-                },
-                {
-                    "name": "HTML5"
-                },
-                {
-                    "name": "CSS3"
-                }
-            ]
+          "name": "React.js"
         },
         {
-            "name": "Captive Portal",
-            "description": "Application for internet access through squid of the users of JovenClub Pinar del Rio, Cuba.",
-            "photo": "assets/files/captiveportal.png",
-            "link": "https://youtu.be/1yOxLxQYMuY",
-            "technologies": [
-                {
-                    "name": "Symfony 2.8"
-                },                
-                {
-                    "name": "Bootstrap 3"
-                },
-                {
-                    "name": "jQuery"
-                },
-                {
-                    "name": "HTML"
-                },
-                {
-                    "name": "CSS"
-                },
-                {
-                    "name": "LDAP"
-                },
-                {
-                    "name": "Memcached"
-                }                
-            ]
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
         }
-    ]
+      ]
+    },
+    {
+      "name": "TechSop",
+      "description": "TechShop is a fake Ecommerce application that allows you buy technological items.",
+      "photo": "assets/files/techshop.png",
+      "link": "https://techshopapp.herokuapp.com",
+      "technologies": [
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        }
+      ]
+    },
+    {
+      "name": "Zacuba",
+      "description": "Zacuba is the place of Cuban fashion. It allows users to sell, promote and buy fashion items. (shoes, shirts, glasses, etc.).",
+      "photo": "assets/files/zacuba.png",
+      "link": "http://zacuba.hl363.dinaserver.com",
+      "technologies": [
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        }
+      ]
+    },
+    {
+      "name": "Captive Portal",
+      "description": "Application for internet access through squid of the users of JovenClub Pinar del Rio, Cuba.",
+      "photo": "assets/files/captiveportal.png",
+      "link": "https://youtu.be/1yOxLxQYMuY",
+      "technologies": [
+        {
+          "name": "Symfony"
+        },
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "jQuery"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "LDAP"
+        },
+        {
+          "name": "Memcached"
+        }
+      ]
+    }
+  ]
 }
