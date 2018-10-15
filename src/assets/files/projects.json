@@ -44,29 +44,6 @@
       ]
     },
     {
-      "name": "Zacuba",
-      "description": "Zacuba is the place of Cuban fashion. It allows users to sell, promote and buy fashion items. (shoes, shirts, glasses, etc.).",
-      "photo": "assets/files/zacuba.png",
-      "link": "http://zacuba.hl363.dinaserver.com",
-      "technologies": [
-        {
-          "name": "Angular"
-        },
-        {
-          "name": "Laravel"
-        },
-        {
-          "name": "Bootstrap"
-        },
-        {
-          "name": "HTML5"
-        },
-        {
-          "name": "CSS3"
-        }
-      ]
-    },
-    {
       "name": "Captive Portal",
       "description": "Application for internet access through squid of the users of JovenClub Pinar del Rio, Cuba.",
       "photo": "assets/files/captiveportal.png",
